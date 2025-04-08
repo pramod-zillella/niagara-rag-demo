@@ -147,7 +147,7 @@ with st.container():
     with col2:
         # Show the image by referencing the PNG file.
         # st.image("niagara-rag-flow.png", use_container_width=True, caption="Niagara RAG Flow Architecture")
-        st.image("niagara-rag-flow.png", use_container_width=True)
+        st.image("Niagara-rag-flow.png", use_container_width=True)
         st.markdown("<p style='text-align: center;'>To get started, try one of these questions:</p>", unsafe_allow_html=True)
 
 
