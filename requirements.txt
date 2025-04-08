@@ -1,4 +1,3 @@
-langchain
 langsmith
 langchain-openai
 notebook
@@ -8,3 +7,5 @@ requests
 tqdm
 openai
 streamlit
+langchain-community
+langchain-pinecone
