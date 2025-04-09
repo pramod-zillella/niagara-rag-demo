@@ -156,14 +156,14 @@ with st.container():
     with col1:
         if st.button("What is Niagara doing to address concerns about plastic waste from bottled water?"):
             st.session_state.current_question = "What is Niagara doing to address concerns about plastic waste from bottled water?"
-        if st.button("How has Niagara's product line expanded since its founding in 1963?"):
-            st.session_state.current_question = "How has Niagara's product line expanded since its founding in 1963?"
+        if st.button("How does Niagara define and meet various water standards (e.g., purified vs. spring vs. distilled)?"):
+            st.session_state.current_question = "How does Niagara define and meet various water standards (e.g., purified vs. spring vs. distilled)?"
 
     with col2:
-        if st.button("What different types of water does Niagara Bottling produce and how do they differ?"):
-            st.session_state.current_question = "What different types of water does Niagara Bottling produce and how do they differ?"
-        if st.button("How has Niagara evolved from a family business started in 1963 to becoming North America's largest private label water bottler?"):
-            st.session_state.current_question = "How has Niagara evolved from a family business started in 1963 to becoming North America's largest private label water bottler?"
+        if st.button("What types of audits and certifications do Niagara’s bottling plants undergo each year?"):
+            st.session_state.current_question = "What types of audits and certifications do Niagara’s bottling plants undergo each year?"
+        if st.button("Which types of water products does Niagara produce, and how are they different?"):
+            st.session_state.current_question = "Which types of water products does Niagara produce, and how are they different?"
 
 # st.divider()
 
