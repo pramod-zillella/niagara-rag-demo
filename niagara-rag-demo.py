@@ -1,4 +1,3 @@
-    
 import os
 import streamlit as st
 from langsmith import traceable
@@ -60,7 +59,9 @@ def initialize_clients():
 pc, embd = initialize_clients()
 openai_client = OpenAI()
 # Define the Pinecone index name
-index_name = "niagara-cleaned-docs"
+# index_name = "niagara-cleaned-docs"
+index_name = "niagara-docs-gpt"
+
 
 
 # Get vector database retriever
