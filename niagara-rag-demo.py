@@ -156,7 +156,7 @@ with st.container():
     with col1:
         if st.button("What is Niagara doing to address concerns about plastic waste from bottled water?"):
             st.session_state.current_question = "What is Niagara doing to address concerns about plastic waste from bottled water?"
-        if st.button("How does Niagara define and meet various water standards (e.g., purified vs. spring vs. distilled)?"):
+        if st.button("How does Niagara define and meet various water standards (e.g., purified vs. spring)?"):
             st.session_state.current_question = "How does Niagara define and meet various water standards (e.g., purified vs. spring vs. distilled)?"
 
     with col2:
