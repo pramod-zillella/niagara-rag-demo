@@ -62,8 +62,6 @@ openai_client = OpenAI()
 # index_name = "niagara-cleaned-docs"
 index_name = "niagara-docs-gpt"
 
-
-
 # Get vector database retriever
 @st.cache_resource
 def get_vector_db_retriever():
