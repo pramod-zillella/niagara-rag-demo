@@ -121,7 +121,7 @@ def langsmith_rag(question: str):
         documents = retrieve_documents(rewritten_query)
     
     with st.spinner("Generating response..."):
-        response = generate_response(question, documents)
+        response = generate_response(question, documents, langsmith_extra={"metadata": {"runtime_metadata": "online-evals"}})
     
     # Extract source URLs from document metadata
     sources = []
@@ -188,7 +188,7 @@ if st.session_state.current_question:
     st.session_state.messages.append({"role": "user", "content": prompt})
     
     # Generate response
-    response = langsmith_rag(prompt, langsmith_extra={"metadata": {"evals": "online-evals"}})
+    response = langsmith_rag(prompt)
     
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
