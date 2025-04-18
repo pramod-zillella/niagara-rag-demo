@@ -188,7 +188,7 @@ if st.session_state.current_question:
     st.session_state.messages.append({"role": "user", "content": prompt})
     
     # Generate response
-    response = langsmith_rag(prompt)
+    response = langsmith_rag(prompt, langsmith_extra={"metadata": {"evals": "online-evals"}})
     
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
